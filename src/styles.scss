@@ -1,1 +1,48 @@
-/* You can add global styles to this file, and also import other style files */
+.container {
+    padding: 80px 120px;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size:40px;
+    font-family: 'Questrial';
+    color:#0f0f10;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    margin: 0;
+}
+
+h2 {
+    font-size:24px;
+    font-family: 'AlegreyaSans';
+    font-weight: lighter;
+    color:#0f0f10;
+    margin: 0;
+}
+
+.splitter {
+    background-color: #1f36a9;
+    height:2px;
+    width:80px;
+    margin: 16px auto;
+}
+
+// import local fonts
+@font-face {
+    font-family: 'Questrial';
+    src: url('/fonts/Questrial-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'AlegreyaSans';
+    font-weight: normal;
+    src: url('/fonts/AlegreyaSans-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'AlegreyaSans';
+    font-weight: lighter;
+    src: url('/fonts/AlegreyaSans-Thin.ttf') format('truetype');
+}

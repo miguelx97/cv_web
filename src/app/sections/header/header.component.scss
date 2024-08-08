@@ -1,0 +1,36 @@
+.header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.header-bg {
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: url('/images/backgrounds/cv_bg_4.jpg');
+    background-size: 100% 100%;
+    z-index: -1;
+    opacity: 40%;
+}
+
+#main-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    img {
+        height: 48px;
+        width: 48px;
+        cursor: pointer;
+    }
+}
