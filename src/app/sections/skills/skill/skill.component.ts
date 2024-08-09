@@ -10,5 +10,7 @@ import { Skill } from './still.interface';
 })
 export class SkillComponent {
   @Input() skill?: Skill;
-  progress = 50;
+  get level() {
+    return (this.skill?.level || 0) * 10;
+  }
 }
