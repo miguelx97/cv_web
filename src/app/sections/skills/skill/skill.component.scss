@@ -1,0 +1,21 @@
+.skill {
+    img {
+        width: 60px;
+        height: 60px;
+    }
+    .progress-bar {
+        width: 200px;
+        height: 25px;
+        background-color: #222;
+      }
+      
+      .progress-bar-fill {
+        background-color: #5F5;
+        height: 100%; /* This is important */
+      }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}

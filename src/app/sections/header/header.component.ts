@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { GlobalModules } from '../../global_modules';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [],
+  imports: [GlobalModules],
   templateUrl: 'header.component.html',
   styleUrls: ['header.component.scss']
 })
