@@ -1,5 +1,5 @@
 export interface Skill {
-    name: string;
-    icon: string;
-    level: number;
-  }
+  name: string;
+  icon: string;
+  level: number;
+}

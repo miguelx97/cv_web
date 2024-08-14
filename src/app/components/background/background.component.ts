@@ -5,8 +5,6 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './background.component.html',
-  styleUrl: './background.component.scss'
+  styleUrl: './background.component.scss',
 })
-export class BackgroundComponent {
-
-}
+export class BackgroundComponent {}

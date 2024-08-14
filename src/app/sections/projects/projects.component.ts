@@ -6,8 +6,6 @@ import { GlobalModules } from '../../global_modules';
   standalone: true,
   imports: [GlobalModules],
   templateUrl: './projects.component.html',
-  styleUrl: './projects.component.scss'
+  styleUrl: './projects.component.scss',
 })
-export class ProjectsComponent {
-
-}
+export class ProjectsComponent {}

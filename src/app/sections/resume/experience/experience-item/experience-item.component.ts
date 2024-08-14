@@ -6,7 +6,7 @@ import { Experience } from '../experience';
   standalone: true,
   imports: [],
   templateUrl: './experience-item.component.html',
-  styleUrl: './experience-item.component.scss'
+  styleUrl: './experience-item.component.scss',
 })
 export class ExperienceItemComponent {
   @Input() experience?: Experience;

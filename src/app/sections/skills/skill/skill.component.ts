@@ -6,7 +6,7 @@ import { Skill } from './still.interface';
   standalone: true,
   imports: [],
   templateUrl: './skill.component.html',
-  styleUrl: './skill.component.scss'
+  styleUrl: './skill.component.scss',
 })
 export class SkillComponent {
   @Input() skill?: Skill;

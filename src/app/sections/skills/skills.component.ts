@@ -8,10 +8,9 @@ import { Skill } from './skill/still.interface';
   standalone: true,
   imports: [GlobalModules, SkillComponent],
   templateUrl: './skills.component.html',
-  styleUrl: './skills.component.scss'
+  styleUrl: './skills.component.scss',
 })
 export class SkillsComponent {
-
   skills: Skill[] = [
     { name: 'Ionic', icon: 'ionic', level: 9 },
     { name: 'Angular', icon: 'angular', level: 9 },
@@ -20,7 +19,6 @@ export class SkillsComponent {
     { name: 'Node JS', icon: 'nodejs', level: 5 },
     { name: 'Java', icon: 'java', level: 6 },
     { name: 'Figma', icon: 'figma', level: 5 },
-    { name: 'Wordpress', icon: 'wordpress', level: 7 }
+    { name: 'Wordpress', icon: 'wordpress', level: 7 },
   ];
-
 }

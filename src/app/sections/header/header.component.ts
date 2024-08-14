@@ -6,8 +6,6 @@ import { GlobalModules } from '../../global_modules';
   standalone: true,
   imports: [GlobalModules],
   templateUrl: 'header.component.html',
-  styleUrls: ['header.component.scss']
+  styleUrls: ['header.component.scss'],
 })
-export class HeaderComponent {
-
-}
+export class HeaderComponent {}

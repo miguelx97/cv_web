@@ -1,80 +1,84 @@
 .container {
-    width: 75% !important;
-    display: flex;
-    gap: 40px;
-    flex-direction: column;
-    align-items: center;
-    margin: 60px auto;
+  width: 75% !important;
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  align-items: center;
+  margin: 60px auto;
 }
 
 .row {
-    width: 100%;
+  width: 100%;
+}
+.text-justify {
+  text-align: justify;
 }
 
 h1 {
-    font-size:40px;
-    font-family: 'Questrial';
-    color:#0f0f10;
-    letter-spacing: 1px;
-    font-weight: lighter;
-    margin: 0;
-    text-align: center;
+  font-size: 40px;
+  font-family: 'Questrial';
+  color: #0f0f10;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  margin: 0;
+  text-align: center;
 }
 
 h2 {
-    font-size:24px;
-    font-family: 'AlegreyaSans';
-    font-weight: 100;
-    color:#0f0f10;
-    margin: 0;
+  font-size: 24px;
+  font-family: 'AlegreyaSans';
+  font-weight: 100;
+  color: #0f0f10;
+  margin: 0;
 }
 
 h3 {
-    font-size: 20px;
-    font-family: 'AlegreyaSans';
-    font-weight: 500;
-    color:#0f0f10;
-    margin: 0 !important;
+  font-size: 20px;
+  font-family: 'AlegreyaSans';
+  font-weight: 500;
+  color: #0f0f10;
+  margin: 0 !important;
 }
 
 h4 {
-    font-size: 16px;
-    font-family: 'AlegreyaSans';
-    font-weight: 500;
-    color:#0f0f10;
-    margin: 0 !important;
+  font-size: 16px;
+  font-family: 'AlegreyaSans';
+  font-weight: 500;
+  color: #0f0f10;
+  margin: 0 !important;
 }
 .splitter {
-    background-color: #1f36a9;
-    height:2px;
-    width:80px;
-    margin: 16px auto;
+  background-color: #1f36a9;
+  height: 2px;
+  width: 80px;
+  margin: 16px auto;
 }
 
-p, li {
-    font-size: 16px;
-    font-family: 'AlegreyaSans';
-    font-weight: 400;
-    color:#0f0f10;
+p,
+li {
+  font-size: 16px;
+  font-family: 'AlegreyaSans';
+  font-weight: 400;
+  color: #0f0f10;
 }
 
 // import local fonts
 @font-face {
-    font-family: 'Questrial';
-    src: url('/fonts/Questrial-Regular.ttf') format('truetype');
+  font-family: 'Questrial';
+  src: url('/fonts/Questrial-Regular.ttf') format('truetype');
 }
 @font-face {
-    font-family: 'AlegreyaSans';
-    font-weight: 500;
-    src: url('/fonts/AlegreyaSans-Medium.ttf') format('truetype');
+  font-family: 'AlegreyaSans';
+  font-weight: 500;
+  src: url('/fonts/AlegreyaSans-Medium.ttf') format('truetype');
 }
 @font-face {
-    font-family: 'AlegreyaSans';
-    font-weight: 400;
-    src: url('/fonts/AlegreyaSans-Regular.ttf') format('truetype');
+  font-family: 'AlegreyaSans';
+  font-weight: 400;
+  src: url('/fonts/AlegreyaSans-Regular.ttf') format('truetype');
 }
 @font-face {
-    font-family: 'AlegreyaSans';
-    font-weight: 100;
-    src: url('/fonts/AlegreyaSans-Thin.ttf') format('truetype');
+  font-family: 'AlegreyaSans';
+  font-weight: 100;
+  src: url('/fonts/AlegreyaSans-Thin.ttf') format('truetype');
 }
