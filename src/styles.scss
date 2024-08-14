@@ -1,10 +1,20 @@
 .container {
-    padding: 80px 120px;
-    text-align: center;
+    width: 75% !important;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto;
 }
 
-body {
+h1 {
+    font-size:40px;
+    font-family: 'Questrial';
+    color:#0f0f10;
+    letter-spacing: 1px;
+    font-weight: lighter;
     margin: 0;
+    text-align: center;
 }
 
 h2 {
@@ -18,21 +28,18 @@ h2 {
 h3 {
     font-size: 20px;
     font-family: 'AlegreyaSans';
-    font-weight: 400;
+    font-weight: 500;
     color:#0f0f10;
     margin: 0 !important;
 }
 
-h1 {
-    font-size:40px;
-    font-family: 'Questrial';
+h4 {
+    font-size: 16px;
+    font-family: 'AlegreyaSans';
+    font-weight: 500;
     color:#0f0f10;
-    letter-spacing: 1px;
-    font-weight: lighter;
-    margin: 0;
-    text-align: center;
+    margin: 0 !important;
 }
-
 .splitter {
     background-color: #1f36a9;
     height:2px;
@@ -40,10 +47,22 @@ h1 {
     margin: 16px auto;
 }
 
+p, li {
+    font-size: 16px;
+    font-family: 'AlegreyaSans';
+    font-weight: 400;
+    color:#0f0f10;
+}
+
 // import local fonts
 @font-face {
     font-family: 'Questrial';
     src: url('/fonts/Questrial-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'AlegreyaSans';
+    font-weight: 500;
+    src: url('/fonts/AlegreyaSans-Medium.ttf') format('truetype');
 }
 @font-face {
     font-family: 'AlegreyaSans';
