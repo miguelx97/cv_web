@@ -1,0 +1,10 @@
+<div class="row">
+    <div class="col-sm-2 col-12 mb-2 mt-1">
+        <img [src]="'images/works/'+experience?.image+'.png'" [alt]="experience?.company">
+    </div>
+    <div class="col-sm-10 col-12 mb-1">
+        <h3>{{experience?.company}}</h3>
+        <p class="mb-0">{{experience?.description}}</p>
+        <p>Tecnologías: {{formatter.format(experience?.technologies ?? [])}}</p>
+    </div>
+</div>
