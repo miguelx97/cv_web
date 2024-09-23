@@ -8,4 +8,9 @@ import { GlobalModules } from '../../global_modules';
   templateUrl: 'header.component.html',
   styleUrls: ['header.component.scss'],
 })
-export class HeaderComponent {}
+export class HeaderComponent {
+
+  openLink(link: string) {
+    window.open(link, '_blank');
+  }
+}
