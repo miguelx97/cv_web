@@ -1,57 +1,43 @@
 <div class="container">
-  <app-title title="Proyectos"></app-title>
+  <app-title title="projects"></app-title>
 
   <div class="row">
     <div class="col-md-6 order-2 mb-4">
-      <img
-        src="images/projects/menuzone_mockup.png"
-        alt="menuzone mockup"
-        class="mockup" />
+      <img src="images/projects/menuzone_mockup.png" alt="menuzone mockup" class="mockup" />
     </div>
     <div class="col-md-6 order-1 mb-4">
-      <h3>Menu Zone</h3>
-      <p>
-        Aplicación desarrollada con Flutter que permite a los usuarios encontrar
-        el típico "menú del día" español a su alrededor.
+      <h3 translate>projects.menuZone.title</h3>
+      <p translate>
+        projects.menuZone.description
       </p>
-      <h4>Funcionalidades</h4>
+      <h4 translate>projects.features</h4>
       <ul>
-        <li>
-          Muestra restaurantes por distancia usando geohashes Usa la API de
-          Google
-        </li>
-        <li>
-          Maps para cargar la información predeterminada de los restaurantes
-        </li>
-        <li>Gestiona el estado global de la aplicación con "Provider"</li>
+        <li translate>projects.menuZone.f1</li>
+        <li translate>projects.menuZone.f2</li>
+        <li translate>projects.menuZone.f3</li>
       </ul>
     </div>
   </div>
 
   <div class="row">
     <div class="col-12 col-md-6 mb-4">
-      <h3>IG4 Agricultura Razonada</h3>
-      <p>
-        Aplicación desarrollada para IG4 Agronomía usando Ionic. El objetivo de
-        esta aplicación es mostrar a los agricultores información organizada en
-        gráficos sobre las variables, como el clima, que afectan sus cultivos.
+      <h3 translate>projects.ig4.title</h3>
+      <p translate>
+        projects.ig4.description
       </p>
-      <h4>Funcionalidades</h4>
+      <h4>projects.features</h4>
       <ul>
-        <li>Usa gráficos (Highcharts) para gestionar los datos</li>
-        <li>Soporte multilenguaje con ngx-translate</li>
-        <li>Conexión con la API de la empresa (HttpClient)</li>
+        <li translate>projects.ig4.f1</li>
+        <li translate>projects.ig4.f2</li>
+        <li translate>projects.ig4.f3</li>
       </ul>
     </div>
 
     <div class="col-12 col-md-6 mb-4">
-      <img
-        src="images/projects/globalsens-mockup.png"
-        alt="globalsens mockup"
-        class="mockup" />
+      <img src="images/projects/globalsens-mockup.png" alt="globalsens mockup" class="mockup" />
     </div>
   </div>
   <div class="row justify-content-center">
-    <a class="link" (click)="openLink('https://portfolio.miguelmartin.pro/')">Ver más proyectos</a>
+    <a class="link" (click)="openLink('https://portfolio.miguelmartin.pro/')" translate>projects.more</a>
   </div>
 </div>

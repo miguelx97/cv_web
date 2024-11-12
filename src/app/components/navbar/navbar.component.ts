@@ -1,9 +1,10 @@
 import { Component, HostListener } from '@angular/core';
+import { GlobalModules } from '../../global_modules';
 
 @Component({
   selector: 'app-navbar',
   standalone: true,
-  imports: [],
+  imports: [GlobalModules],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.scss'
 })

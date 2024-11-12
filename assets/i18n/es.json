@@ -1,0 +1,54 @@
+{
+  "navbar": {
+    "contact": "Contacto",
+    "language": {
+      "title": "Idioma",
+      "es": "Español",
+      "en": "Inglés"
+    },
+    "download": "Descargar CV"
+  },
+  "header": {
+    "name": "Miguel Martín",
+    "subtitle": "Desarrollador de apps móviles"
+  },
+  "skills": {
+    "title": "Habilidades"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "features": "Funcionalidades",
+    "more": "Ver más proyectos",
+    "menuZone": {
+      "title": "Menu Zone",
+      "description": "Aplicación desarrollada con Flutter que permite a los usuarios encontrar el típico \"menú del día\" español a su alrededor.",
+      "f1": "Muestra restaurantes por distancia usando geohashes Usa la API de Google",
+      "f2": "Maps para cargar la información predeterminada de los restaurantes",
+      "f3": "Gestiona el estado global de la aplicación con \"Provider\""
+    },
+    "ig4": {
+      "title": "IG4 Agricultura Razonada",
+      "description": "Aplicación desarrollada para IG4 Agronomía usando Ionic. El objetivo de esta aplicación es mostrar a los agricultores información organizada en gráficos sobre las variables, como el clima, que afectan sus cultivos.",
+      "f1": "Usa gráficos (Highcharts) para gestionar los datos",
+      "f2": "Soporte multilenguaje con ngx-translate",
+      "f3": "Conexión con la API de la empresa (HttpClient)"
+    }
+  },
+  "resume": {
+    "title": "Formación",
+    "work": {
+      "title": "Experiencia Laboral",
+      "technologies": "Tecnologías"
+    },
+    "studies": {
+      "title": "Educación",
+      "description": "Prefiero aprender de forma autodidacta y practicando en proyectos (learning by doing), así que esta sección no es precisa en mostrar todos mis conocimientos, pero aquí están los principales cursos que he hecho.",
+      "content": "<li>Diseño móvil y web con Figma (2023 - 28h)</li><li>Curso de Flutter en Udemy (2022 - 37h)</li><li>Curso de Java Spring Boot en Udemy (2020 - 10h)</li><li>Curso de Ionic en Udemy (2019 - 30h)</li><li>Curso de Kotlin en Udemy (2018 - 20h)</li><li>Curso de diseño web en Udemy (2018 - 6h)</li><li>Curso de Java con Viewnext (2018 - 180h)</li><li>Curso de Java de tres meses con la Fundación Esplai (2017)</li><li>  Curso de Realidad Virtual en la Universidad Europea de Madrid (2017 - 20h)</li><li>  Grado Superior en Desarrollo de Aplicaciones Multiplataforma en la  Universidad Europea de Madrid (2014-2017)</li>"
+    }
+  },
+  "about": {
+    "title": "Sobre mí",
+    "hi": "¡Hola! Soy Miguel",
+    "description": "<p class=\"text-justify\">  Encontré en la programación el hobby y trabajo perfecto para esta  curiosidad. No solo por eso, sino porque, aunque me gusta hablar con  gente y socializar, me considero una persona introvertida y la sensación  de estar enfrente del código con mi música me encanta.</p><p class=\"text-justify\">  Entre algunos de mis logros personales está haber trabajado de freelance  desarrollando apps para varias startups, ya que siempre quise saber cómo  era el trabajar por mi cuenta, aunque lo dejé al cabo de un año porque  invertía mucha energía buscando clientes y burocracia. También he  logrado tener dos aplicaciones con miles de descargas en la Play Store  (Stormii y Consumii). Por último, he cumplido uno de mis sueños: viajar  solo por Asia sin morir en el intento (por ahora). Aunque esto pueda  parecer bastante irrelevante para la programación, siento que esto ha  mejorado mucho mi capacidad resolutiva.</p>"
+  }
+}

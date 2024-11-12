@@ -1,35 +1,14 @@
 <div class="container">
-  <app-title title="Sobre mí"></app-title>
+  <app-title title="about"></app-title>
   <div class="row">
     <div class="col-lg-3 col-md-6 col-12">
-      <img
-        src="images/about.jpg"
-        alt="sobre mi"
-        class="mb-4 d-none d-md-block" />
-      <img
-        src="images/about2.jpg"
-        alt="sobre mi"
-        class="mb-4 d-block d-md-none small-img" />
+      <img src="images/about.jpg" alt="sobre mi" class="mb-4 d-none d-md-block" />
+      <img src="images/about2.jpg" alt="sobre mi" class="mb-4 d-block d-md-none small-img" />
     </div>
     <div class="col-lg-9 col-md-6 col-12">
-      <h3 class="mb-3">¡Hola! Soy Miguel</h3>
-      <p class="text-justify">
-        Encontré en la programación el hobby y trabajo perfecto para esta
-        curiosidad. No solo por eso, sino porque, aunque me gusta hablar con
-        gente y socializar, me considero una persona introvertida y la sensación
-        de estar enfrente del código con mi música me encanta.
-      </p>
-      <p class="text-justify">
-        Entre algunos de mis logros personales está haber trabajado de freelance
-        desarrollando apps para varias startups, ya que siempre quise saber cómo
-        era el trabajar por mi cuenta, aunque lo dejé al cabo de un año porque
-        invertía mucha energía buscando clientes y burocracia. También he
-        logrado tener dos aplicaciones con miles de descargas en la Play Store
-        (Stormii y Consumii). Por último, he cumplido uno de mis sueños: viajar
-        solo por Asia sin morir en el intento (por ahora). Aunque esto pueda
-        parecer bastante irrelevante para la programación, siento que esto ha
-        mejorado mucho mi capacidad resolutiva.
-      </p>
+      <h3 class="mb-3" translate>about.hi</h3>
+      <div innerHTML="{{ 'about.description' | translate }}">
+      </div>
     </div>
   </div>
 </div>

@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { Experience } from './experience';
 import { ExperienceItemComponent } from './experience-item/experience-item.component';
+import { GlobalModules } from '../../../global_modules';
 
 @Component({
   selector: 'app-experience',
   standalone: true,
-  imports: [ExperienceItemComponent],
+  imports: [ExperienceItemComponent, GlobalModules],
   templateUrl: './experience.component.html',
   styleUrl: './experience.component.scss',
 })
