@@ -1,0 +1,55 @@
+{
+  "navbar": {
+    "contact": "Contact",
+    "home": "Home",
+    "language": {
+      "title": "Language",
+      "es": "Spanish",
+      "en": "English"
+    },
+    "download": "Download CV"
+  },
+  "header": {
+    "name": "Miguel Martín",
+    "subtitle": "Mobile app developer"
+  },
+  "skills": {
+    "title": "Skills"
+  },
+  "projects": {
+    "title": "Projects",
+    "features": "Features",
+    "more": "See more projects",
+    "menuZone": {
+      "title": "Menu Zone",
+      "description": "Application developed with Flutter that allows users to find the typical Spanish 'menu of the day' around them.",
+      "f1": "Displays restaurants by distance using geohashes Uses the Google API",
+      "f2": "Maps to load default restaurant information",
+      "f3": "Manages global application state with 'Provider'"
+    },
+    "ig4": {
+      "title": "IG4 Reasoned Agriculture",
+      "description": "Application developed for IG4 Agronomy using Ionic. The goal of this app is to show farmers organized information in charts about variables, such as the weather, that affect their crops.",
+      "f1": "Uses charts (Highcharts) to manage data",
+      "f2": "Multilanguage support with ngx-translate",
+      "f3": "Connection with the company's API (HttpClient)"
+    }
+  },
+  "resume": {
+    "title": "Education",
+    "work": {
+      "title": "Work Experience",
+      "technologies": "Technologies"
+    },
+    "studies": {
+      "title": "Education",
+      "description": "I prefer to learn in a self-taught way and by practicing on projects (learning by doing), so this section is not precise in showing all my knowledge, but here are the main courses I have taken.",
+      "content": "<li>Mobile and web design with Figma (2023 - 28h)</li><li>Flutter course on Udemy (2022 - 37h)</li><li>Java Spring Boot course on Udemy (2020 - 10h)</li><li>Ionic course on Udemy (2019 - 30h)</li><li>Kotlin course on Udemy (2018 - 20h)</li><li>Web design course on Udemy (2018 - 6h)</li><li>Java course with Viewnext (2018 - 180h)</li><li>Three-month Java course with Fundación Esplai (2017)</li><li>  Virtual Reality course at the European University of Madrid (2017 - 20h)</li><li>  Higher Degree in Multiplatform Application Development at the  European University of Madrid (2014-2017)</li>"
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "hi": "Hello! I'm Miguel",
+    "description": "<p class=\"text-justify\">I found in programming the perfect hobby and job for this curiosity. Not only because of that, but also because, although I like talking to people and socializing, I consider myself an introvert and love the feeling of being in front of the code with my music.</p><p class=\"text-justify\">  Among some of my personal achievements is having worked as a freelance developer creating apps for various startups, as I always wanted to know what it was like to work on my own, although I left it after a year because I spent a lot of energy looking for clients and handling bureaucracy. I have also managed to have two apps with thousands of downloads on the Play Store (Stormii and Consumii). Lastly, I achieved one of my dreams: traveling solo through Asia without dying in the attempt (so far). Although this may seem quite irrelevant to programming, I feel that it has greatly improved my problem-solving skills.</p>"
+  }
+}
