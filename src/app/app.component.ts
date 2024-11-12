@@ -7,6 +7,7 @@ import { ProjectsComponent } from './sections/projects/projects.component';
 import { ResumeComponent } from './sections/resume/resume.component';
 import { AboutComponent } from './sections/about/about.component';
 import { BackgroundComponent } from './components/background/background.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @Component({
   selector: 'app-root',
@@ -19,6 +20,7 @@ import { BackgroundComponent } from './components/background/background.componen
     ResumeComponent,
     AboutComponent,
     BackgroundComponent,
+    NavbarComponent
   ],
   templateUrl: 'app.component.html',
   styleUrls: ['app.component.scss'],

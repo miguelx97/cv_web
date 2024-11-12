@@ -12,6 +12,7 @@
 .row {
   width: 100%;
 }
+
 .text-justify {
   text-align: justify;
 }
@@ -49,11 +50,23 @@ h4 {
   color: var(--primary);
   margin: 0 !important;
 }
+
 .splitter {
   background-color: var(--accent);
   height: 2px;
   width: 80px;
   margin: 16px auto;
+}
+
+a.link {
+  font-size: 20px;
+  font-family: 'AlegreyaSans';
+  font-weight: 100;
+  color: var(--accent) !important;
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent);
+  width: auto !important;
+  cursor: pointer;
 }
 
 p,
@@ -69,16 +82,19 @@ li {
   font-family: 'Questrial';
   src: url('/fonts/Questrial-Regular.ttf') format('truetype');
 }
+
 @font-face {
   font-family: 'AlegreyaSans';
   font-weight: 500;
   src: url('/fonts/AlegreyaSans-Medium.ttf') format('truetype');
 }
+
 @font-face {
   font-family: 'AlegreyaSans';
   font-weight: 400;
   src: url('/fonts/AlegreyaSans-Regular.ttf') format('truetype');
 }
+
 @font-face {
   font-family: 'AlegreyaSans';
   font-weight: 100;

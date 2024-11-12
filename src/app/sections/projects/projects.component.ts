@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { GlobalModules } from '../../global_modules';
+import { openExternalLink } from '../../common/utils';
 
 @Component({
   selector: 'app-projects',
@@ -8,4 +9,6 @@ import { GlobalModules } from '../../global_modules';
   templateUrl: './projects.component.html',
   styleUrl: './projects.component.scss',
 })
-export class ProjectsComponent {}
+export class ProjectsComponent {
+  openLink = (link: string) => openExternalLink(link);
+}

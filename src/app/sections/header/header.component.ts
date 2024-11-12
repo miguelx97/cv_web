@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { GlobalModules } from '../../global_modules';
+import { openExternalLink } from '../../common/utils';
 
 @Component({
   selector: 'app-header',
@@ -9,8 +10,5 @@ import { GlobalModules } from '../../global_modules';
   styleUrls: ['header.component.scss'],
 })
 export class HeaderComponent {
-
-  openLink(link: string) {
-    window.open(link, '_blank');
-  }
+  openLink = (link: string) => openExternalLink(link);
 }
