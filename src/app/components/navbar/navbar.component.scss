@@ -1,8 +1,28 @@
-nav {
-    /* From https://css.glass */
-    background: rgba(255, 255, 255, 0.2);
+.container-fluid {
+    background: rgba(255, 255, 255, 0.349);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
+    margin: 10px 20px;
+    padding: 10px 20px;
+}
+
+nav {
+    white-space: nowrap;
+    position: fixed;
+    width: 100%;
+    max-width: 100%;
+    transition: max-width .5s ease;
+}
+
+.scrolled {
+    max-width: 420px;
+    .second-navbar {
+        opacity: 0;
+    }
+}
+
+.second-navbar {
+    transition: .5s ease;
 }
