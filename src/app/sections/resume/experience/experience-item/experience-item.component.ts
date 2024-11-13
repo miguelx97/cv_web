@@ -12,7 +12,7 @@ import { GlobalModules } from '../../../../global_modules';
 export class ExperienceItemComponent {
   @Input() experience?: Experience;
 
-  formatter = new Intl.ListFormat('es', {
+  formatter = new Intl.ListFormat('en', {
     style: 'long',
     type: 'conjunction',
   });

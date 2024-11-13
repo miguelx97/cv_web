@@ -11,10 +11,12 @@ import { GlobalModules } from '../../global_modules';
 export class NavbarComponent {
 
   public isScrolled: boolean = false;
+  get scrollClass() { return this.isScrolled ? 'scrolled' : 'top' }
 
   @HostListener('window:scroll', [])
   onWindowScroll() {
     this.isScrolled = window.scrollY > 120;
   }
+
 
 }

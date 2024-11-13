@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg" [class]="{ 'scrolled': isScrolled, 'top': !isScrolled }">
+<nav class="navbar navbar-expand-lg" [class]="scrollClass">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
             <img src="/logo_M.png" width="30" height="30" alt="Miguel Martin Logo">
@@ -42,3 +42,13 @@
         </div>
     </div>
 </nav>
+
+<div class="bottom-buttons" [class]="scrollClass">
+    <a type="button" class="btn" href="mailto:mmcmmc97@gmail.com">
+        <img src="images/icons/email2.svg" alt="Go Top" />
+    </a>
+
+    <a type="button" class="btn" href="#">
+        <img src="images/icons/top.svg" alt="Go Top" />
+    </a>
+</div>

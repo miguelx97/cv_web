@@ -31,14 +31,13 @@ export class AppComponent {
     this.translate.addLangs(['es', 'en']);
     const lang: string = this.setLanguage();
     this.translate.setDefaultLang(lang);
-    // this.translate.use('en');
+    this.translate.use(lang);
   }
 
   private setLanguage(): string {
     const availableLangs: string[] = this.translate.getLangs();
     const defaultLang: string = 'en';
     const browserLang = this.translate.getBrowserLang();
-    console.log('browserLang', browserLang);
 
     if (!browserLang) return defaultLang;
     else if (availableLangs.includes(browserLang)) {
