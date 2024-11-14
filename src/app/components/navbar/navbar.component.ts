@@ -1,6 +1,7 @@
 import { Component, HostListener } from '@angular/core';
 import { GlobalModules } from '../../global_modules';
 import { LanguageService } from '../../services/language.service';
+import { openExternalLink } from '../../common/utils';
 
 @Component({
   selector: 'app-navbar',
@@ -32,6 +33,18 @@ export class NavbarComponent {
 
   scrollTop(): void {
     window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  downLoadCV(): void {
+
+    const cvByLang: { [key: string]: string } = {
+      'en': 'https://drive.google.com/file/d/11w_-qmwmJQvpKPcrFDC4offy8f_RFSQq/view?usp=drive_link',
+      'es': 'https://drive.google.com/file/d/183_lKXRNLuuaSsvkhLmpOz9JYCLLbC-B/view?usp=drive_link'
+    }
+
+    const link: string = cvByLang[this.languageSvc.currentLang];
+
+    openExternalLink(link);
   }
 
 }

@@ -7,7 +7,7 @@
       "es": "Spanish",
       "en": "English"
     },
-    "download": "Download CV"
+    "openPdf": "Download CV"
   },
   "header": {
     "name": "Miguel Martín",
