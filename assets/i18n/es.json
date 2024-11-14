@@ -7,6 +7,7 @@
       "es": "Español",
       "en": "Inglés"
     },
+    "viewCode": "Ver código",
     "openPdf": "Descargar CV"
   },
   "header": {
@@ -58,5 +59,15 @@
     "title": "Sobre mí",
     "hi": "¡Hola! Soy Miguel",
     "description": "<p class=\"text-justify\">Encontré en la programación el hobby y trabajo perfecto para esta  curiosidad. No solo por eso, sino porque, aunque me gusta hablar con  gente y socializar, me considero una persona introvertida y la sensación  de estar enfrente del código con mi música me encanta.</p><p class=\"text-justify\">  Entre algunos de mis logros personales está haber trabajado de freelance  desarrollando apps para varias startups, ya que siempre quise saber cómo  era el trabajar por mi cuenta, aunque lo dejé al cabo de un año porque  invertía mucha energía buscando clientes y burocracia. También he  logrado tener dos aplicaciones con miles de descargas en la Play Store  (Stormii y Consumii). Por último, he cumplido uno de mis sueños: viajar  solo por Asia sin morir en el intento (por ahora). Aunque esto pueda  parecer bastante irrelevante para la programación, siento que esto ha  mejorado mucho mi capacidad resolutiva.</p>"
+  },
+  "footer": {
+    "contact": "Contáctame",
+    "quote": "Vamos a crear<br>juntos",
+    "social": {
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "phone": "Teléfono",
+      "email": "Email"
+    }
   }
 }

@@ -47,4 +47,5 @@ export class NavbarComponent {
     openExternalLink(link);
   }
 
+  openLink = openExternalLink;
 }
