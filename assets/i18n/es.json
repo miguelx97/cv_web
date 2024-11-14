@@ -11,7 +11,14 @@
   },
   "header": {
     "name": "Miguel Martín",
-    "subtitle": "Desarrollador de apps móviles"
+    "subtitle": "Desarrollador de apps móviles",
+    "tooltip": {
+      "linkedin": "Conéctate conmigo en LinkedIn",
+      "github": "Echa un vistazo a mi GitHub",
+      "googlePlay": "Echa un vistazo a mi Google Play",
+      "whatsapp": "Envíame un WhatsApp",
+      "email": "Envíame un correo"
+    }
   },
   "skills": {
     "title": "Habilidades"

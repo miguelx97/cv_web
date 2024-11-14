@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg" [class]="scrollClass">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" (click)="scrollTop()">
             <img src="/logo_M.png" width="30" height="30" alt="Miguel Martin Logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
@@ -10,16 +10,16 @@
         <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                 <li class="nav-item">
-                    <a class="nav-link" href="#skills" translate>skills.title</a>
+                    <a class="nav-link" (click)="scroll('skills')" translate>skills.title</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#projects" translate>projects.title</a>
+                    <a class="nav-link" (click)="scroll('projects')" translate>projects.title</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#resume" translate>resume.title</a>
+                    <a class="nav-link" (click)="scroll('resume')" translate>resume.title</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#about" translate>about.title</a>
+                    <a class="nav-link" (click)="scroll('about')" translate>about.title</a>
                 </li>
             </ul>
         </div>
@@ -31,12 +31,12 @@
                         navbar.language.title
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#" translate>navbar.language.es</a></li>
-                        <li><a class="dropdown-item" href="#" translate>navbar.language.en</a></li>
+                        <li><a class="dropdown-item" translate (click)="setLanguage('es')">navbar.language.es</a></li>
+                        <li><a class="dropdown-item" translate (click)="setLanguage('en')">navbar.language.en</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" translate>navbar.download</a>
+                    <a class="nav-link" (click)="scrollTop()" translate>navbar.download</a>
                 </li>
             </ul>
         </div>
@@ -48,7 +48,7 @@
         <img src="images/icons/email2.svg" alt="Go Top" />
     </a>
 
-    <a type="button" class="btn" href="#">
+    <a type="button" class="btn" (click)="scrollTop()">
         <img src="images/icons/top.svg" alt="Go Top" />
     </a>
 </div>

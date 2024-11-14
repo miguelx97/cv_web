@@ -11,7 +11,14 @@
   },
   "header": {
     "name": "Miguel Martín",
-    "subtitle": "Mobile app developer"
+    "subtitle": "Mobile app developer",
+    "tooltip": {
+      "linkedin": "Connect with me on LinkedIn",
+      "github": "Check out my GitHub",
+      "googlePlay": "Check out my Google Play",
+      "whatsapp": "Send me a WhatsApp message",
+      "email": "Send me an email"
+    }
   },
   "skills": {
     "title": "Skills"

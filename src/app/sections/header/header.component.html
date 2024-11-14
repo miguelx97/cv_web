@@ -6,21 +6,22 @@
     <h2 translate>header.subtitle</h2>
   </div>
   <div class="links row d-flex justify-content-center w-75 mt-4">
-    <div class="col-sm-2 col-4 mb-4" title="Connect with me on LinkedIn">
+    <div class="col-sm-2 col-4 mb-4" [title]="'header.tooltip.linkedin' | translate">
       <img src="images/icons/linkedin.svg" alt="LinkedIn"
         (click)="openLink('https://www.linkedin.com/in/miguelmartin97/')" />
     </div>
-    <div class="col-sm-2 col-4 mb-4" title="Check out my GitHub">
+    <div class="col-sm-2 col-4 mb-4" [title]="'header.tooltip.github' | translate">
       <img src="images/icons/github.svg" alt="GitHub" (click)="openLink('https://github.com/miguelx97')" />
     </div>
-    <div class="col-sm-2 col-4 mb-4" title="Check out my Google Play">
+    <div class="col-sm-2 col-4 mb-4" [title]="'header.tooltip.googlePlay' | translate">
       <img src="images/icons/googleplay.svg" alt="Google Play"
         (click)="openLink('https://play.google.com/store/apps/dev?id=8209119328808921253')" />
     </div>
-    <div class="col-sm-2 col-4 mb-4" title="Send me a WhatsApp message">
+    <div class="col-sm-2 col-4 mb-4" [title]="'header.tooltip.whatsapp' | translate">
       <img src="images/icons/whatsapp.svg" alt="WhatsApp" (click)="openLink('https://wa.me/34666772483')" />
     </div>
-    <div class="col-sm-2 col-4 mb-4" data-toggle="tooltip" data-placement="top" title="Send me an email">
+    <div class="col-sm-2 col-4 mb-4" data-toggle="tooltip" data-placement="top"
+      [title]="'header.tooltip.email' | translate">
       <img src="images/icons/email.svg" alt="Email" (click)="openLink('mailto:mmcmmc97@gmail.com')" />
     </div>
   </div>

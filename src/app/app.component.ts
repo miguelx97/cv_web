@@ -6,9 +6,8 @@ import { ResumeComponent } from './sections/resume/resume.component';
 import { AboutComponent } from './sections/about/about.component';
 import { BackgroundComponent } from './components/background/background.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import {
-  TranslateService,
-} from "@ngx-translate/core";
+import { FooterComponent } from './sections/footer/footer.component';
+import { LanguageService } from './services/language.service';
 
 @Component({
   selector: 'app-root',
@@ -20,30 +19,16 @@ import {
     ResumeComponent,
     AboutComponent,
     BackgroundComponent,
-    NavbarComponent
+    NavbarComponent,
+    FooterComponent
   ],
   templateUrl: 'app.component.html',
   styleUrls: ['app.component.scss'],
 })
 export class AppComponent {
   title = 'CV_web';
-  constructor(private translate: TranslateService) {
-    this.translate.addLangs(['es', 'en']);
-    const lang: string = this.setLanguage();
-    this.translate.setDefaultLang(lang);
-    this.translate.use(lang);
+  constructor(private languageSvc: LanguageService) {
+    this.languageSvc.initLanguage();
   }
 
-  private setLanguage(): string {
-    const availableLangs: string[] = this.translate.getLangs();
-    const defaultLang: string = 'en';
-    const browserLang = this.translate.getBrowserLang();
-
-    if (!browserLang) return defaultLang;
-    else if (availableLangs.includes(browserLang)) {
-      return browserLang;
-    } else {
-      return defaultLang;
-    }
-  }
 }

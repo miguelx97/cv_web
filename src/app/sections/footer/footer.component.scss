@@ -1,0 +1,22 @@
+.footer {
+  background-color: var(--primary);
+  z-index: -1;
+
+  h3,
+  span,
+  a {
+    color: #ebebeb;
+  }
+
+  li {
+    color: #808080;
+  }
+
+  .quote {
+    font-family: 'Questrial';
+    font-size: 3em;
+    font-style: italic;
+    text-align: center;
+    margin-top: 1em;
+  }
+}
