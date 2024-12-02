@@ -12,7 +12,7 @@
   },
   "header": {
     "name": "Miguel Martín",
-    "subtitle": "Mobile app developer",
+    "subtitle": "Mobile Cross-Platform developer",
     "tooltip": {
       "linkedin": "Connect with me on LinkedIn",
       "github": "Check out my GitHub",
@@ -58,7 +58,7 @@
   "about": {
     "title": "About Me",
     "hi": "Hello! I'm Miguel",
-    "description": "<p class=\"text-justify\">I found in programming the perfect hobby and job for this curiosity. Not only because of that, but also because, although I like talking to people and socializing, I consider myself an introvert and love the feeling of being in front of the code with my music.</p><p class=\"text-justify\">  Among some of my personal achievements is having worked as a freelance developer creating apps for various startups, as I always wanted to know what it was like to work on my own, although I left it after a year because I spent a lot of energy looking for clients and handling bureaucracy. I have also managed to have two apps with thousands of downloads on the Play Store (Stormii and Consumii). Lastly, I achieved one of my dreams: traveling solo through Asia without dying in the attempt (so far). Although this may seem quite irrelevant to programming, I feel that it has greatly improved my problem-solving skills.</p>"
+    "description": "<p class=\"text-justify\">I am 27 years old and have always been curious about how everything that comes into my hands works. I found in programming the perfect hobby and job for this curiosity. Not only because of that, but also because, even though I enjoy talking to people and socializing, I love the feeling of being in front of code with my music is something I love.</p><p class=\"text-justify\">Among some of my personal achievements, I have worked as a freelance developer creating apps for various startups, as I always wanted to know what it was like to work on my own. However, I stopped after a year because I was investing a lot of energy in finding clients and dealing with bureaucracy. I also managed to have two applications with thousands of downloads on the Play Store (Stormii and Consumii). Lastly, I have fulfilled one of my dreams, traveling solo through Asia without dying in the attempt (so far). Although this might seem quite irrelevant for programming, I feel it has greatly improved my problem-solving skills.</p>"
   },
   "footer": {
     "contact": "Contact me",
